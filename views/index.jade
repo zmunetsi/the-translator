@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1 The Translator
+  form.search-form(action = "/voice" method = "POST")
+    textarea(cols="50" rows="20" placeholder="Enter Your Text To Translate." name = "text" required).text
+    br
+    br
+    button(type= "submit").btn-translate Translate
+  hr
+  audio(controls='', autoplay='')
+    source(src='audio/'+path+'.wav', type='audio/wav')
