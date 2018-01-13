@@ -2,8 +2,7 @@ var express = require('express');
 var TextToSpeechV1 = require('watson-developer-cloud/text-to-speech/v1');
 var fs = require('fs');
 var uuidV4 = require('uuid/v4');
-var $  = require('jQuery');
-var jsdom = require("jsdom/lib/old-api.js");
+
 
 var router = express.Router();
 
