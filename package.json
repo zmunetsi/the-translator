@@ -20,5 +20,28 @@
     "tmp": "0.0.33",
     "uuid": "^3.1.0",
     "watson-developer-cloud": "^3.0.3"
-  }
+  },
+  "engines": {
+    "node": "8.9.3"
+  },
+  "description": "Ibm text to speech api demo.",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zmunetsi/the-translator.git"
+  },
+  "keywords": [
+    "speech",
+    "to",
+    "text",
+    "translalator",
+    "ibm"
+  ],
+  "author": "Munetsi Zunguzira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zmunetsi/the-translator/issues"
+  },
+  "homepage": "https://github.com/zmunetsi/the-translator#readme"
 }
